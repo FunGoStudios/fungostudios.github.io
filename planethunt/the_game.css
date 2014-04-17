@@ -1,0 +1,730 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.0784314);
+}
+
+body {
+    background-image:url("img/bkg.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#wrapper {
+    float: left;
+    height: 100%;
+    clear: none;
+    width: 97.601399%;
+    position: fixed;
+    top: auto;
+    left: 262.953125px;
+    bottom: -350px;
+    min-height: 0px;
+}
+
+#header {
+    float: left;
+    height: 7.8%;
+    clear: none;
+    width: 97.600411%;
+    position: fixed;
+    top: 0px;
+    left: 1.199794%;
+    bottom: auto;
+}
+
+#box {
+    float: left;
+    height: 72.83%;
+    clear: none;
+    width: 97.601399%;
+    position: fixed;
+    top: 8.2%;
+    left: 1.198806%;
+    bottom: auto;
+}
+
+#footer {
+    float: left;
+    height: 16.868446%;
+    clear: none;
+    width: 97.601399%;
+    position: fixed;
+    top: auto;
+    left: 1.198806%;
+    bottom: 0px;
+}
+
+#hearth {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: auto;
+    left: auto;
+    bottom: 0px;
+    right: auto;
+    min-width: 0px;
+    display: block;
+}
+
+#rocket {
+    float: left;
+    width: 2.926352%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    min-width: 0px;
+    position: fixed;
+    top: auto;
+    left: 75.426945%;
+    bottom: 6.2%;
+    display: block;
+    z-index: 1;
+}
+
+#download_button {
+    float: left;
+    width: 11.139464%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 44.797837%;
+    bottom: 55.618035%;
+    right: auto;
+    box-shadow: rgb(0, 0, 0) 0px 0px;
+    z-index: 11;
+    display: block;
+}
+
+#screenshot {
+    float: left;
+    font-size: 100%;
+    width: 14.615821%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 25.615659%;
+    margin-top: 30px;
+    clear: none;
+    min-height: 40px;
+    color: rgb(255, 254, 210);
+    text-decoration: underline;
+}
+
+#htp {
+    float: none;
+    font-size: 100%;
+    width: 14.615821%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 30px;
+    clear: none;
+    min-height: 40px;
+    color: rgb(255, 254, 210);
+    margin-right: auto;
+}
+
+#facebook {
+    float: right;
+    font-size: 100%;
+    width: 14.616833%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: -40px;
+    clear: none;
+    min-height: 40px;
+    color: rgb(255, 254, 210);
+    margin-right: 25.615659%;
+    display: block;
+}
+
+#screenshot:hover {
+    text-shadow: rgb(255, 254, 210) 0px 0px 5px;
+}
+
+#htp:hover {
+    text-shadow: rgb(255, 254, 210) 0px 0px 5px;
+}
+
+#facebook:hover {
+    text-shadow: rgb(255, 254, 210) 0px 0px 5px;
+}
+
+#fungo_logo {
+    float: left;
+    width: 10.439398%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: auto;
+    left: 45.1%;
+    bottom: 2.4%;
+    z-index: 3;
+    display: block;
+    right: auto;
+}
+
+#fungo_logo:hover {
+    opacity: 1;
+}
+
+#download_button:hover {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    opacity: 1;
+    width: 11.64%;
+    left: 44.503174%;
+    right: auto;
+    bottom: 55.618035%;
+}
+
+#text {
+    float: left;
+    font-size: 40px;
+    width: 48.765862%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 46px;
+    color: rgb(255, 254, 210);
+    position: absolute;
+    top: 0px;
+    left: 25.616412%;
+}
+
+#text1 {
+    float: left;
+    font-size: 1em;
+    width: 48.768539%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 144px;
+    position: absolute;
+    top: 15.567501%;
+    left: 25.615784%;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(255, 254, 210);
+}
+
+#textspan {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(159, 214, 174);
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 8.447556%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 42.539487%;
+    left: 20.465385%;
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 14.61557%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 82px;
+    position: absolute;
+    top: 77.096308%;
+    left: 16.946647%;
+}
+
+#text3 {
+    float: left;
+    font-size: 1em;
+    width: 14.61557%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 82px;
+    color: rgb(255, 254, 210);
+    position: absolute;
+    top: 77.096308%;
+    left: 34.022905%;
+}
+
+#text4 {
+    float: left;
+    font-size: 1em;
+    width: 14.61557%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 82px;
+    position: absolute;
+    top: 77.096308%;
+    left: 51.099163%;
+}
+
+#text5 {
+    float: left;
+    font-size: 1em;
+    width: 14.61557%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    clear: none;
+    min-height: 82px;
+    position: absolute;
+    top: 77.096308%;
+    left: 68.17542%;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 13.712052%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 42.863909%;
+    left: 35.288638%;
+}
+
+#image2 {
+    float: left;
+    width: auto;
+    max-width: 17.690207%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 48.940302%;
+    left: 50.484523%;
+}
+
+#image3 {
+    float: left;
+    width: auto;
+    max-width: 12.918295%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 44.199484%;
+    left: 69.163705%;
+}
+
+#textspan3 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(255, 254, 210);
+}
+
+#textspan4 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(255, 254, 210);
+}
+
+#textspan5 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(255, 254, 210);
+}
+
+#textspan2 {
+    float: none;
+    font-size: 120%;
+    line-height: 1em;
+    color: rgb(255, 254, 210);
+}
+
+@media only screen and (max-width: 1024px) {
+    #fungo_logo {
+        left: 45.4%;
+        right: auto;
+        width: 10.438538%;
+    }
+
+    #rocket {
+        width: 2.92511%;
+    }
+
+    #hearth {
+        width: 100%;
+    }
+
+    #image3 {
+        top: 44.44576%;
+        left: 68.099243%;
+        height: auto;
+        width: auto;
+        max-width: 14.823963%;
+    }
+
+    #text {
+        width: 48.768057%;
+        font-size: 32px;
+        top: 7px;
+        left: 25.615971%;
+        height: auto;
+    }
+
+    #text1 {
+        width: 65.84485%;
+        top: 17.234602%;
+        left: 16.945469%;
+        font-size: 90%;
+        height: auto;
+        min-height: 101px;
+        line-height: 110%;
+    }
+
+    #text2 {
+        width: 14.616034%;
+        font-size: 90%;
+        top: 78.005636%;
+        left: 16.945469%;
+        line-height: 110%;
+    }
+
+    #text3 {
+        width: 14.616034%;
+        font-size: 90%;
+        top: 78.005636%;
+        left: 34.022263%;
+        line-height: 110%;
+    }
+
+    #text4 {
+        width: 14.616034%;
+        font-size: 90%;
+        top: 78.005636%;
+        left: 51.099056%;
+        line-height: 110%;
+    }
+
+    #text5 {
+        width: 14.616034%;
+        font-size: 90%;
+        top: 78.005636%;
+        left: 68.174286%;
+        line-height: 110%;
+    }
+
+    #image2 {
+        top: 53.688224%;
+        left: 51.099056%;
+        height: auto;
+        width: auto;
+        max-width: 15.727597%;
+    }
+
+    #image1 {
+        top: 43.955576%;
+        left: 34.022263%;
+        height: auto;
+        width: auto;
+        max-width: 15.36802%;
+    }
+
+    #image {
+        top: 43.955576%;
+        left: 19.334313%;
+        height: auto;
+        width: auto;
+        max-width: 9.233319%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #fungo_logo {
+        bottom: 1.1%;
+        top: auto;
+        width: 13.94%;
+        left: 43.3%;
+        right: auto;
+    }
+
+    #download_button {
+        width: 23.34%;
+        left: 37.82%;
+        right: auto;
+    }
+
+    #screenshot {
+        margin-top: 30px;
+        margin-left: 19.311265%;
+        clear: none;
+        width: 14.614775%;
+    }
+
+    #htp {
+        width: 21.66889%;
+        height: auto;
+        margin-top: 30px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+    }
+
+    #facebook {
+        margin-right: auto;
+        margin-top: -40px;
+        clear: none;
+        width: 14.614775%;
+        margin-left: 66.19%;
+        float: none;
+    }
+
+    #download_button:hover {
+        width: 25.24%;
+        left: 37.02%;
+        right: auto;
+    }
+
+    #text1 {
+        font-size: 80%;
+        height: auto;
+        min-height: 89px;
+        top: 19.204812%;
+        left: 16.944948%;
+        width: 65.976695%;
+    }
+
+    #text {
+        width: 48.767015%;
+        font-size: 30px;
+        top: 37px;
+        left: 25.614408%;
+    }
+
+    #text2 {
+        width: 14.614471%;
+        font-size: 80%;
+        top: 68.912359%;
+        left: 16.944948%;
+    }
+
+    #text3 {
+        width: 14.614471%;
+        font-size: 80%;
+        top: 68.912359%;
+        left: 34.02122%;
+    }
+
+    #text4 {
+        width: 14.614471%;
+        font-size: 80%;
+        top: 68.912359%;
+        left: 51.097492%;
+    }
+
+    #text5 {
+        width: 14.614471%;
+        font-size: 80%;
+        top: 68.912359%;
+        left: 68.173764%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    #screenshot {
+        font-size: 70%;
+    }
+
+    #htp {
+        font-size: 70%;
+    }
+
+    #facebook {
+        font-size: 70%;
+    }
+
+    #fungo_logo {
+        width: 24.64%;
+        left: 36.2%;
+        right: auto;
+        bottom: 2.2%;
+        top: auto;
+    }
+
+    #download_button {
+        width: 22.04%;
+        left: auto;
+        right: 43px;
+        bottom: 19.9%;
+        top: auto;
+    }
+
+    #download_button:hover {
+        width: 23.54%;
+        right: 39px;
+        left: auto;
+    }
+
+    #text {
+        height: auto;
+        top: 37px;
+        left: 16.944758%;
+        width: 65.980834%;
+        font-size: 22px;
+    }
+
+    #text1 {
+        width: 65.975197%;
+        font-size: 60%;
+        top: 15.716688%;
+        left: 16.944758%;
+    }
+
+    #text2 {
+        width: 31.840474%;
+        font-size: 60%;
+        top: 59.399938%;
+        left: 16.944758%;
+        height: auto;
+    }
+
+    #text3 {
+        width: 31.578354%;
+        font-size: 60%;
+        top: 59.399938%;
+        left: 51.23168%;
+        height: auto;
+    }
+
+    #text4 {
+        width: 14.613867%;
+        font-size: 60%;
+        top: 99.220915%;
+        left: 33.058061%;
+    }
+
+    #text5 {
+        width: 14.613867%;
+        font-size: 60%;
+        top: 99.220915%;
+        left: 50.135287%;
+    }
+
+    #image2 {
+        top: 83.999148%;
+        left: 33.058061%;
+    }
+
+    #image3 {
+        top: 74.754316%;
+        left: 50.059188%;
+    }
+
+    #image1 {
+        top: 43.955576%;
+        left: 68.291995%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #screenshot {
+        height: auto;
+        margin-top: 30px;
+        margin-left: 7.304383%;
+        clear: none;
+        width: 26.61597%;
+    }
+
+    #htp {
+        width: 29.507705%;
+        height: auto;
+        margin-top: 30px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+    }
+
+    #facebook {
+        width: 26.500901%;
+        height: auto;
+        margin-right: auto;
+    }
+
+    #rocket {
+        width: 6.62%;
+        bottom: 1.8%;
+        top: auto;
+    }
+
+    #hearth {
+        width: 100%;
+        max-width: none;
+    }
+
+    #fungo_logo {
+        width: 35.64%;
+        bottom: 1.4%;
+        top: auto;
+        left: 32%;
+        right: auto;
+    }
+
+    #download_button {
+        width: 36.24%;
+        left: 30.72%;
+        right: auto;
+        bottom: 0.1%;
+        top: auto;
+    }
+
+    #download_button:hover {
+        right: 97px;
+        left: auto;
+        width: 39.84%;
+    }
+}
+
