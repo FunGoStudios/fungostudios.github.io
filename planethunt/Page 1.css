@@ -1,0 +1,470 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.0784314);
+}
+
+body {
+    background-image:url("img/bkg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#wrapper {
+    float: left;
+    height: 100%;
+    clear: none;
+    width: 97.601399%;
+    position: fixed;
+    top: auto;
+    left: 262.953125px;
+    bottom: -350px;
+    min-height: 0px;
+}
+
+#header {
+    float: left;
+    height: 7.8%;
+    clear: none;
+    width: 97.600411%;
+    position: fixed;
+    top: 0px;
+    left: 1.199794%;
+    bottom: auto;
+}
+
+#box {
+    float: left;
+    height: 72.83%;
+    clear: none;
+    width: 97.601399%;
+    position: fixed;
+    top: 8.2%;
+    left: 1.198806%;
+    bottom: auto;
+}
+
+#footer {
+    float: left;
+    height: 16.868446%;
+    clear: none;
+    width: 97.601399%;
+    position: fixed;
+    top: auto;
+    left: 1.198806%;
+    bottom: 0px;
+}
+
+#hearth {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: auto;
+    left: auto;
+    bottom: 0px;
+    right: auto;
+    min-width: 0px;
+    display: block;
+}
+
+#rocket {
+    float: left;
+    width: 2.926352%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    min-width: 0px;
+    position: fixed;
+    top: auto;
+    left: 75.426945%;
+    bottom: 6.2%;
+    display: block;
+    z-index: 1;
+}
+
+#moon {
+    float: left;
+    width: 28.4%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0%;
+    left: 39.84%;
+    bottom: auto;
+    right: auto;
+}
+
+#logo {
+    float: left;
+    width: 12.96%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 54.28%;
+    left: 43.53%;
+    right: auto;
+    bottom: auto;
+}
+
+#download_button {
+    float: left;
+    width: 11.14%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 44.22%;
+    bottom: 0%;
+    right: auto;
+    box-shadow: rgb(0, 0, 0) 0px 0px;
+    z-index: 11;
+    display: block;
+}
+
+#rocket_animated {
+    float: left;
+    width: 10.61%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 32.97%;
+    bottom: 0%;
+    right: auto;
+}
+
+#screenshot {
+    float: left;
+    font-size: 100%;
+    width: 14.615821%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 25.615659%;
+    margin-top: 30px;
+    clear: none;
+    min-height: 40px;
+    color: rgb(255, 254, 210);
+    display: block;
+}
+
+#htp {
+    float: none;
+    font-size: 100%;
+    width: 14.615821%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 30px;
+    clear: none;
+    min-height: 40px;
+    color: rgb(255, 254, 210);
+    margin-right: auto;
+}
+
+#facebook {
+    float: right;
+    font-size: 100%;
+    width: 14.616833%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: -40px;
+    clear: none;
+    min-height: 40px;
+    color: rgb(255, 254, 210);
+    margin-right: 25.615659%;
+    display: block;
+}
+
+#screenshot:hover {
+    text-shadow: rgb(255, 254, 210) 0px 0px 5px;
+}
+
+#htp:hover {
+    text-shadow: rgb(255, 254, 210) 0px 0px 5px;
+}
+
+#facebook:hover {
+    text-shadow: rgb(255, 254, 210) 0px 0px 5px;
+}
+
+#fungo_logo {
+    float: left;
+    width: 10.44%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: auto;
+    left: 45.1%;
+    bottom: 2.4%;
+    z-index: 3;
+    display: block;
+    right: auto;
+}
+
+#fungo_logo:hover {
+    opacity: 1;
+}
+
+#download_button:hover {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    opacity: 1;
+    width: 11.64%;
+    left: 43.92%;
+    right: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    #fungo_logo {
+        left: 45.4%;
+        right: auto;
+        width: 10.438538%;
+    }
+
+    #rocket {
+        width: 2.92511%;
+    }
+
+    #hearth {
+        width: 100%;
+    }
+
+    #moon {
+        width: 40.5%;
+        left: 35.44%;
+        right: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #fungo_logo {
+        bottom: 1.1%;
+        top: auto;
+        width: 13.94%;
+        left: 43.3%;
+        right: auto;
+    }
+
+    #download_button {
+        width: 23.34%;
+        left: 37.82%;
+        right: auto;
+    }
+
+    #rocket_animated {
+        width: 19.01%;
+        left: 19.47%;
+        right: auto;
+    }
+
+    #moon {
+        width: 64.6%;
+        left: 26.84%;
+        right: auto;
+    }
+
+    #logo {
+        width: 24.76%;
+        left: 37.33%;
+        right: auto;
+    }
+
+    #screenshot {
+        margin-top: 30px;
+        margin-left: 19.311265%;
+        clear: none;
+        width: 14.614775%;
+    }
+
+    #htp {
+        width: 21.66889%;
+        height: auto;
+        margin-top: 30px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+    }
+
+    #facebook {
+        margin-right: auto;
+        margin-top: -40px;
+        clear: none;
+        width: 14.614775%;
+        margin-left: 66.19%;
+        float: none;
+    }
+
+    #download_button:hover {
+        width: 25.24%;
+        left: 37.02%;
+        right: auto;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    #screenshot {
+        font-size: 70%;
+    }
+
+    #htp {
+        font-size: 70%;
+    }
+
+    #facebook {
+        font-size: 70%;
+    }
+
+    #fungo_logo {
+        width: 24.64%;
+        left: 37.24967%;
+        right: auto;
+        bottom: 2.197158%;
+        top: auto;
+    }
+
+    #download_button {
+        width: 22.04%;
+        left: auto;
+        right: 43px;
+        bottom: 19.9%;
+        top: auto;
+    }
+
+    #rocket_animated {
+        left: 8.67%;
+        right: auto;
+        bottom: 0%;
+        top: auto;
+    }
+
+    #moon {
+        width: 46.7%;
+        left: 33.14%;
+        right: auto;
+    }
+
+    #logo {
+        width: 23.06%;
+        left: 38.63%;
+        right: auto;
+        top: 65.88%;
+        bottom: auto;
+    }
+
+    #download_button:hover {
+        width: 23.54%;
+        right: 39px;
+        left: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #screenshot {
+        height: auto;
+        margin-top: 30px;
+        margin-left: 7.304383%;
+        clear: none;
+        width: 26.61597%;
+    }
+
+    #htp {
+        width: 29.507705%;
+        height: auto;
+        margin-top: 30px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+    }
+
+    #facebook {
+        width: 26.500901%;
+        height: auto;
+        margin-right: auto;
+    }
+
+    #rocket {
+        width: 6.62%;
+        bottom: 1.8%;
+        top: auto;
+    }
+
+    #hearth {
+        width: 100%;
+        max-width: none;
+    }
+
+    #fungo_logo {
+        width: 35.64%;
+        bottom: 1.398662%;
+        top: auto;
+        left: 32.62207%;
+        right: auto;
+    }
+
+    #rocket_animated {
+        width: 29.41%;
+        left: 1.27%;
+        right: auto;
+    }
+
+    #moon {
+        width: 103.2%;
+        max-width: none;
+        left: 13.04%;
+        right: auto;
+    }
+
+    #download_button {
+        width: 36.24%;
+        left: 31.9992%;
+        right: auto;
+        bottom: 0.09945772%;
+        top: auto;
+    }
+
+    #logo {
+        width: 33.86%;
+        left: 33.13%;
+        right: auto;
+        top: 54.88%;
+        bottom: auto;
+    }
+
+    #download_button:hover {
+        right: 95px;
+        left: auto;
+        width: 39.84%;
+        bottom: 0.09945772%;
+    }
+}
+
