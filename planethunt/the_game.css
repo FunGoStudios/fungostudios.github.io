@@ -5,7 +5,6 @@
     margin-right: auto;
     min-height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.0784314);
 }
 
 body {
@@ -30,7 +29,7 @@ body {
 
 #header {
     float: left;
-    height: 7.8%;
+    height: 7.798703%;
     clear: none;
     width: 97.600411%;
     position: fixed;
@@ -41,73 +40,13 @@ body {
 
 #box {
     float: left;
-    height: 72.83%;
+    height: 72.828711%;
     clear: none;
     width: 97.601399%;
     position: fixed;
     top: 8.2%;
     left: 1.198806%;
     bottom: auto;
-}
-
-#footer {
-    float: left;
-    height: 16.868446%;
-    clear: none;
-    width: 97.601399%;
-    position: fixed;
-    top: auto;
-    left: 1.198806%;
-    bottom: 0px;
-}
-
-#hearth {
-    float: none;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    clear: none;
-    color: rgb(0, 0, 0);
-    position: fixed;
-    top: auto;
-    left: auto;
-    bottom: 0px;
-    right: auto;
-    min-width: 0px;
-    display: block;
-}
-
-#rocket {
-    float: left;
-    width: 2.926352%;
-    max-width: 100%;
-    height: auto;
-    clear: none;
-    color: rgb(0, 0, 0);
-    min-width: 0px;
-    position: fixed;
-    top: auto;
-    left: 75.426945%;
-    bottom: 6.2%;
-    display: block;
-    z-index: 1;
-}
-
-#download_button {
-    float: left;
-    width: 11.139464%;
-    max-width: 100%;
-    height: auto;
-    clear: none;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    top: auto;
-    left: 44.797837%;
-    bottom: 55.618035%;
-    right: auto;
-    box-shadow: rgb(0, 0, 0) 0px 0px;
-    z-index: 11;
-    display: block;
 }
 
 #screenshot {
@@ -125,6 +64,9 @@ body {
     color: rgb(255, 254, 210);
     text-decoration: none;
     display: block;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #htp {
@@ -143,6 +85,9 @@ body {
     margin-right: auto;
     text-decoration: underline;
     display: block;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #facebook {
@@ -160,6 +105,9 @@ body {
     color: rgb(255, 254, 210);
     margin-right: 25.615659%;
     display: block;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #screenshot:hover {
@@ -168,22 +116,6 @@ body {
 
 #facebook:hover {
     text-shadow: rgb(255, 254, 210) 0px 0px 5px;
-}
-
-#fungo_logo {
-    float: left;
-    width: 10.439398%;
-    max-width: 100%;
-    height: auto;
-    clear: none;
-    color: rgb(0, 0, 0);
-    position: fixed;
-    top: auto;
-    left: 45.1%;
-    bottom: 2.4%;
-    z-index: 3;
-    display: block;
-    right: auto;
 }
 
 #fungo_logo:hover {
@@ -216,6 +148,9 @@ body {
     position: absolute;
     top: 0px;
     left: 25.616412%;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #text1 {
@@ -231,6 +166,9 @@ body {
     position: absolute;
     top: 15.567501%;
     left: 25.615784%;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #textspan1 {
@@ -238,6 +176,9 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(255, 254, 210);
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #textspan {
@@ -245,6 +186,9 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(159, 214, 174);
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #image {
@@ -272,6 +216,9 @@ body {
     position: absolute;
     top: 77.096308%;
     left: 16.946647%;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #text3 {
@@ -288,6 +235,9 @@ body {
     position: absolute;
     top: 77.096308%;
     left: 34.022905%;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #text4 {
@@ -303,6 +253,9 @@ body {
     position: absolute;
     top: 77.096308%;
     left: 51.099163%;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #text5 {
@@ -318,6 +271,9 @@ body {
     position: absolute;
     top: 77.096308%;
     left: 68.17542%;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #image1 {
@@ -361,6 +317,9 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(255, 254, 210);
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #textspan4 {
@@ -368,6 +327,9 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(255, 254, 210);
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #textspan5 {
@@ -375,6 +337,9 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(255, 254, 210);
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 #textspan2 {
@@ -382,23 +347,104 @@ body {
     font-size: 120%;
     line-height: 1em;
     color: rgb(255, 254, 210);
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
+}
+
+#footer {
+    float: left;
+    height: 169px;
+    clear: none;
+    width: 97.601232%;
+    position: fixed;
+    top: auto;
+    left: 0%;
+    bottom: 0px;
+    margin: 741px 0% 0% 1.265405%;
+    right: auto;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;    
+}
+
+#rocket {
+    float: left;
+    width: 2.926352%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    min-width: 0px;
+    position: fixed;
+    top: auto;
+    left: 75.426945%;
+    bottom: 6.2%;
+    display: block;
+    z-index: 1;
+}
+
+#fungo_logo {
+    float: left;
+    width: 10.439398%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: auto;
+    left: 45.1%;
+    bottom: 2.4%;
+    z-index: 3;
+    display: block;
+    right: auto;
+}
+
+#hearth {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: auto;
+    left: auto;
+    bottom: 0px;
+    right: auto;
+    min-width: 0px;
+    display: block;
+}
+
+#download_button {
+    float: left;
+    width: 11.139464%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: auto;
+    left: 44.797837%;
+    bottom: 46.72%;
+    right: auto;
+    box-shadow: rgb(0, 0, 0) 0px 0px;
+    z-index: 11;
+    display: block;
+}
+
+#box1 {
+    float: left;
+    height: 16px;
+    margin-left: 0%;
+    margin-top: 176.28125px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 1024px) {
-    #fungo_logo {
-        left: 45.4%;
-        right: auto;
-        width: 10.438538%;
-    }
-
-    #rocket {
-        width: 2.92511%;
-    }
-
-    #hearth {
-        width: 100%;
-    }
-
     #image3 {
         top: 44.44576%;
         left: 68.099243%;
@@ -423,6 +469,9 @@ body {
         height: auto;
         min-height: 101px;
         line-height: 110%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text2 {
@@ -431,6 +480,9 @@ body {
         top: 78.005636%;
         left: 16.945469%;
         line-height: 110%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text3 {
@@ -439,6 +491,9 @@ body {
         top: 78.005636%;
         left: 34.022263%;
         line-height: 110%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text4 {
@@ -447,6 +502,9 @@ body {
         top: 78.005636%;
         left: 51.099056%;
         line-height: 110%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text5 {
@@ -455,6 +513,9 @@ body {
         top: 78.005636%;
         left: 68.174286%;
         line-height: 110%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #image2 {
@@ -480,28 +541,35 @@ body {
         width: auto;
         max-width: 9.233319%;
     }
+
+    #rocket {
+        width: 2.92511%;
+    }
+
+    #fungo_logo {
+        left: 45.4%;
+        right: auto;
+        width: 10.438538%;
+    }
+
+    #hearth {
+        width: 100%;
+    }
+
+    #box1 {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    #fungo_logo {
-        bottom: 1.1%;
-        top: auto;
-        width: 13.94%;
-        left: 43.3%;
-        right: auto;
-    }
-
-    #download_button {
-        width: 23.34%;
-        left: 37.82%;
-        right: auto;
-    }
-
     #screenshot {
         margin-top: 30px;
         margin-left: 19.311265%;
         clear: none;
         width: 14.614775%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #htp {
@@ -511,6 +579,9 @@ body {
         margin-left: auto;
         clear: none;
         margin-right: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #facebook {
@@ -520,6 +591,9 @@ body {
         width: 14.614775%;
         margin-left: 66.19%;
         float: none;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #download_button:hover {
@@ -535,6 +609,9 @@ body {
         top: 19.204812%;
         left: 16.944948%;
         width: 65.976695%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text {
@@ -542,6 +619,9 @@ body {
         font-size: 30px;
         top: 37px;
         left: 25.614408%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text2 {
@@ -549,6 +629,9 @@ body {
         font-size: 80%;
         top: 68.912359%;
         left: 16.944948%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text3 {
@@ -556,6 +639,9 @@ body {
         font-size: 80%;
         top: 68.912359%;
         left: 34.02122%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text4 {
@@ -563,6 +649,9 @@ body {
         font-size: 80%;
         top: 68.912359%;
         left: 51.097492%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text5 {
@@ -570,160 +659,509 @@ body {
         font-size: 80%;
         top: 68.912359%;
         left: 68.173764%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #fungo_logo {
+        bottom: 1.1%;
+        top: auto;
+        width: 13.94%;
+        left: 43.3%;
+        right: auto;
+    }
+
+    #download_button {
+        width: 23.34%;
+        left: 37.82%;
+        right: auto;
+    }
+
+    #box1 {
+        visibility: hidden;
     }
 }
 
 @media only screen and (max-width: 568px) {
     #screenshot {
         font-size: 70%;
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+        width: 14.614279%;
+        position: absolute;
+        top: 0px;
+        left: 19.310014%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #htp {
         font-size: 70%;
+        margin-top: 0px;
+        clear: none;
+        width: 21.666338%;
+        position: absolute;
+        margin-left: 0px;
+        margin-right: 0px;
+        top: 0px;
+        left: 40.624031%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #facebook {
         font-size: 70%;
-    }
-
-    #fungo_logo {
-        width: 24.64%;
-        left: 36.2%;
+        width: 14.614279%;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        float: right;
+        clear: none;
+        position: absolute;
+        top: 0%;
+        left: 68.5%;
         right: auto;
-        bottom: 2.2%;
-        top: auto;
-    }
-
-    #download_button {
-        width: 22.04%;
-        left: auto;
-        right: 43px;
-        bottom: 19.9%;
-        top: auto;
+        bottom: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #download_button:hover {
         width: 23.54%;
-        right: 39px;
+        right: 204.734375px;
         left: auto;
+        top: 17.463026%;
     }
 
     #text {
         height: auto;
-        top: 37px;
-        left: 16.944758%;
+        top: 5.362798%;
+        left: 18.204622%;
         width: 65.980834%;
         font-size: 22px;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text1 {
         width: 65.975197%;
         font-size: 60%;
-        top: 15.716688%;
-        left: 16.944758%;
+        top: 15.715816%;
+        left: 18.249718%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text2 {
         width: 31.840474%;
         font-size: 60%;
-        top: 59.399938%;
-        left: 16.944758%;
+        top: 56.268629%;
+        left: 18.303269%;
         height: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text3 {
         width: 31.578354%;
         font-size: 60%;
-        top: 59.399938%;
-        left: 51.23168%;
+        top: 56.268629%;
+        left: 52.457723%;
         height: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text4 {
-        width: 14.613867%;
+        width: 31.826381%;
         font-size: 60%;
-        top: 99.220915%;
-        left: 33.058061%;
+        top: 88.375559%;
+        left: 18.249718%;
+        height: auto;
+        min-height: 49.234375px;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #text5 {
-        width: 14.613867%;
+        width: 31.688275%;
         font-size: 60%;
-        top: 99.220915%;
-        left: 50.135287%;
+        top: 88.375559%;
+        left: 52.288613%;
+        height: auto;
+        min-height: 49px;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #image2 {
-        top: 83.999148%;
-        left: 33.058061%;
+        top: 75.652012%;
+        left: 23.534386%;
+        height: auto;
+        width: auto;
+        max-width: 21.149944%;
     }
 
     #image3 {
-        top: 74.754316%;
-        left: 50.059188%;
+        top: 71.965816%;
+        left: 60.27903%;
+        height: auto;
+        width: auto;
+        max-width: 15.952649%;
     }
 
     #image1 {
-        top: 43.955576%;
-        left: 68.291995%;
+        top: 37.073864%;
+        left: 59.357384%;
+        height: auto;
+        width: auto;
+        max-width: 18.449831%;
+    }
+
+    #box {
+        width: 100%;
+        height: 671px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin-top: 3.28%;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #image {
+        left: 28.537204%;
+        top: 37.765462%;
+        height: auto;
+        width: auto;
+        max-width: 10.837091%;
+    }
+
+    #header {
+        width: 99.997182%;
+        height: 3.885617%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin-top: 3.607666%;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #wrapper {
+        width: 97.601232%;
+        height: auto;
+        bottom: auto;
+        top: 0px;
+        left: 0px;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #footer {
+        height: auto;
+        position: relative;
+        bottom: auto;
+        top: 0px;
+        left: 0px;
+        width: 97.598647%;
+        margin: -1.8% 0% 0% 2.409808%;
+        clear: both;
+    }
+
+    #rocket {
+        width: 3.06977%;
+        position: absolute;
+        bottom: 30px;
+        top: auto;
+        left: 76.715375%;
+    }
+
+    #fungo_logo {
+        width: 25.242578%;
+        left: 37.056717%;
+        bottom: 14px;
+        top: auto;
+        position: absolute;
+        clear: none;
+    }
+
+    #hearth {
+        position: absolute;
+        bottom: 0px;
+        top: auto;
+        left: 0%;
+        width: 100%;
+        clear: none;
+        right: auto;
+        visibility: visible;
+    }
+
+    #download_button {
+        width: 22.03708%;
+        left: auto;
+        right: 38.90782%;
+        bottom: auto;
+        top: 20.030879%;
+    }
+
+    #box1 {
+        visibility: hidden;
+        margin-top: 176.28125px;
+        margin-left: 0%;
+        clear: none;
+        width: 100%;
+        height: 16px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     #screenshot {
         height: auto;
-        margin-top: 30px;
-        margin-left: 7.304383%;
+        margin-top: 0%;
+        margin-left: 9.131751%;
         clear: none;
-        width: 26.61597%;
+        width: 23.155051%;
+        top: 0px;
+        left: 0px;
+        position: static;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #htp {
-        width: 29.507705%;
+        width: 31.700605%;
         height: auto;
-        margin-top: 30px;
-        margin-left: auto;
+        margin-top: 0.00488329%;
+        margin-left: 34.124426%;
         clear: none;
-        margin-right: auto;
+        z-index: 5;
+        top: 0px;
+        left: 0px;
+        position: static;
+        margin-right: 0px;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #facebook {
-        width: 26.500901%;
+        width: 23.160054%;
         height: auto;
-        margin-right: auto;
-    }
-
-    #rocket {
-        width: 6.62%;
-        bottom: 1.8%;
-        top: auto;
-    }
-
-    #hearth {
-        width: 100%;
-        max-width: none;
-    }
-
-    #fungo_logo {
-        width: 35.64%;
-        bottom: 1.4%;
-        top: auto;
-        left: 32%;
-        right: auto;
-    }
-
-    #download_button {
-        width: 36.24%;
-        left: 30.72%;
-        right: auto;
-        bottom: 0.1%;
-        top: auto;
+        margin-right: 9.483348%;
+        z-index: 7;
+        position: static;
+        top: 0px;
+        left: 0px;
+        margin-top: -12.794218%;
+        clear: none;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #download_button:hover {
         right: 97px;
         left: auto;
         width: 39.84%;
+        margin-top: -49.677734%;
+        margin-left: 29.711914%;
+        clear: none;
+    }
+
+    #rocket {
+        width: 6.616211%;
+        bottom: auto;
+        top: -280.4%;
+        left: 76.708984%;
+    }
+
+    #fungo_logo {
+        width: 35.634766%;
+        bottom: auto;
+        top: -156.25%;
+        left: 31.99707%;
+        position: absolute;
+        clear: none;
+    }
+
+    #hearth {
+        width: 100%;
+        max-width: none;
+        bottom: 16px;
+        left: 0%;
+        top: auto;
+        right: auto;
+    }
+
+    #download_button {
+        width: 36.235352%;
+        left: 0px;
+        right: auto;
+        top: 0px;
+        position: static;
+        margin-top: -49.3%;
+        margin-left: 31.274414%;
+        clear: none;
+    }
+
+    #footer {
+        margin-top: 69.2%;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+        visibility: visible;
+        display: block;
+    }
+
+    #text1 {
+        width: 82.929758%;
+        height: auto;
+        top: 9.839925%;
+        left: 8.510742%;
+        bottom: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #text {
+        height: auto;
+        top: 1.934734%;
+        left: 8.510742%;
+        width: 82.919752%;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #text2 {
+        width: 65.434261%;
+        top: 37.466161%;
+        left: 17.363281%;
+        height: auto;
+        min-height: 30px;
+        font-size: 70%;
+        bottom: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #text3 {
+        width: 65.84951%;
+        top: 57.700683%;
+        left: 17.050781%;
+        height: auto;
+        min-height: 46px;
+        font-size: 70%;
+        bottom: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #text4 {
+        width: 65.434261%;
+        top: 75.375177%;
+        left: 17.050781%;
+        height: auto;
+        min-height: 29.234375px;
+        font-size: 70%;
+        bottom: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #text5 {
+        width: 65.434261%;
+        top: 96.218809%;
+        left: 17.045898%;
+        height: auto;
+        min-height: 33px;
+        font-size: 70%;
+        bottom: auto;
+        font-family: "ocr-a-std",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #box {
+        clear: none;
+        height: 1062px;
+        width: 100%;
+    }
+
+    #header {
+        height: auto;
+        margin-top: 8.1%;
+        width: 99.990234%;
+    }
+
+    #image {
+        top: 25.519362%;
+        left: 39.560547%;
+        height: auto;
+        width: auto;
+        max-width: 20.672403%;
+        bottom: auto;
+    }
+
+    #image1 {
+        top: 45.056497%;
+        left: 32.910156%;
+        height: auto;
+        width: auto;
+        max-width: 33.910346%;
+        bottom: auto;
+    }
+
+    #image2 {
+        top: 68.426318%;
+        left: 28.901367%;
+        height: auto;
+        width: auto;
+        max-width: 44.991995%;
+        bottom: auto;
+    }
+
+    #image3 {
+        top: 84.664842%;
+        left: 33.154297%;
+        height: auto;
+        width: auto;
+        max-width: 33.440064%;
+        bottom: auto;
+    }
+
+    #wrapper {
+        width: 100%;
+    }
+
+    #box1 {
+        float: left;
+        height: 16px;
+        margin-left: 0%;
+        margin-top: 0%;
+        clear: both;
+        width: 100%;
+        background-color: rgb(253, 253, 253);
+        visibility: visible;
     }
 }
 

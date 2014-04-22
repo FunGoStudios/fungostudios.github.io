@@ -5,14 +5,15 @@
     margin-right: auto;
     min-height: 100%;
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.0784314);
 }
 
 body {
     background-image:url("img/bkg.jpg");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #wrapper {
@@ -164,7 +165,6 @@ body {
     clear: none;
     min-height: 40px;
     color: rgb(255, 254, 210);
-    display: block;
     text-decoration: underline;
 }
 
@@ -182,10 +182,6 @@ body {
     min-height: 40px;
     color: rgb(255, 254, 210);
     margin-right: auto;
-    display: block;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;
 }
 
 #facebook {
@@ -203,9 +199,10 @@ body {
     color: rgb(255, 254, 210);
     margin-right: 25.615659%;
     display: block;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;
+}
+
+#screenshot:hover {
+    text-shadow: rgb(255, 254, 210) 0px 0px 5px;
 }
 
 #htp:hover {
@@ -307,9 +304,6 @@ body {
         margin-left: 19.311265%;
         clear: none;
         width: 14.614775%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
@@ -319,9 +313,6 @@ body {
         margin-left: auto;
         clear: none;
         margin-right: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
@@ -331,9 +322,6 @@ body {
         width: 14.614775%;
         margin-left: 66.19%;
         float: none;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #download_button:hover {
@@ -346,30 +334,21 @@ body {
 @media only screen and (max-width: 568px) {
     #screenshot {
         font-size: 70%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
         font-size: 70%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
         font-size: 70%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #fungo_logo {
         width: 24.64%;
-        left: 37.24967%;
+        left: 36.2%;
         right: auto;
-        bottom: 2.197158%;
+        bottom: 2.2%;
         top: auto;
     }
 
@@ -392,7 +371,6 @@ body {
         width: 46.7%;
         left: 33.14%;
         right: auto;
-        z-index: 0;
     }
 
     #logo {
@@ -417,9 +395,6 @@ body {
         margin-left: 7.304383%;
         clear: none;
         width: 26.61597%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
@@ -429,18 +404,12 @@ body {
         margin-left: auto;
         clear: none;
         margin-right: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
         width: 26.500901%;
         height: auto;
         margin-right: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #rocket {
@@ -456,9 +425,9 @@ body {
 
     #fungo_logo {
         width: 35.64%;
-        bottom: 1.398662%;
+        bottom: 1.4%;
         top: auto;
-        left: 32.62207%;
+        left: 32%;
         right: auto;
     }
 
@@ -477,9 +446,9 @@ body {
 
     #download_button {
         width: 36.24%;
-        left: 31.9992%;
+        left: 30.72%;
         right: auto;
-        bottom: 0.09945772%;
+        bottom: 0.1%;
         top: auto;
     }
 
@@ -492,10 +461,9 @@ body {
     }
 
     #download_button:hover {
-        right: 95px;
+        right: 97px;
         left: auto;
         width: 39.84%;
-        bottom: 0.09945772%;
     }
 }
 
