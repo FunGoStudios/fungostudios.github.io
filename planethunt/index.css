@@ -166,6 +166,9 @@ body {
     color: rgb(255, 254, 210);
     display: block;
     text-decoration: underline;
+    font-family: "ocr-a-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #htp {
