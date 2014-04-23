@@ -9,10 +9,10 @@
 
 body {
     background-image:url("img/bkg.jpg");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #wrapper {
@@ -166,9 +166,7 @@ body {
     color: rgb(255, 254, 210);
     display: block;
     text-decoration: underline;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: ocr-a-std;
 }
 
 #htp {
@@ -186,9 +184,7 @@ body {
     color: rgb(255, 254, 210);
     margin-right: auto;
     display: block;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: ocr-a-std;
 }
 
 #facebook {
@@ -206,9 +202,7 @@ body {
     color: rgb(255, 254, 210);
     margin-right: 25.615659%;
     display: block;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: ocr-a-std;
 }
 
 #htp:hover {
@@ -310,9 +304,6 @@ body {
         margin-left: 19.311265%;
         clear: none;
         width: 14.614775%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
@@ -322,9 +313,6 @@ body {
         margin-left: auto;
         clear: none;
         margin-right: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
@@ -334,9 +322,6 @@ body {
         width: 14.614775%;
         margin-left: 66.19%;
         float: none;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #download_button:hover {
@@ -349,23 +334,14 @@ body {
 @media only screen and (max-width: 568px) {
     #screenshot {
         font-size: 70%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
         font-size: 70%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
         font-size: 70%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #fungo_logo {
@@ -420,9 +396,6 @@ body {
         margin-left: 7.304383%;
         clear: none;
         width: 26.61597%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
@@ -432,18 +405,12 @@ body {
         margin-left: auto;
         clear: none;
         margin-right: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
         width: 26.500901%;
         height: auto;
         margin-right: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #rocket {
