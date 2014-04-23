@@ -9,10 +9,10 @@
 
 body {
     background-image:url("img/bkg.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0% 0%;
-    background-repeat: no-repeat no-repeat;
 }
 
 #wrapper {
@@ -64,9 +64,7 @@ body {
     color: rgb(255, 254, 210);
     text-decoration: none;
     display: block;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: ocr-a-std;
 }
 
 #htp {
@@ -85,9 +83,7 @@ body {
     margin-right: auto;
     text-decoration: underline;
     display: block;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: ocr-a-std;
 }
 
 #facebook {
@@ -105,9 +101,7 @@ body {
     color: rgb(255, 254, 210);
     margin-right: 25.615659%;
     display: block;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
+    font-family: ocr-a-std;
 }
 
 #screenshot:hover {
@@ -129,15 +123,15 @@ body {
     border-bottom-left-radius: 0px;
     opacity: 1;
     width: 11.64%;
-    left: 44.503174%;
+    left: 44.502612%;
     right: auto;
-    bottom: 55.618035%;
+    bottom: 49.639423%;
 }
 
 #text {
     float: left;
-    font-size: 40px;
-    width: 48.765862%;
+    font-size: 32px;
+    width: 48.765151%;
     height: auto;
     text-align: center;
     font-weight: normal;
@@ -146,17 +140,15 @@ body {
     min-height: 46px;
     color: rgb(255, 254, 210);
     position: absolute;
-    top: 0px;
+    top: 18px;
     left: 25.616412%;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
+    font-family: ocr-a-std;
 }
 
 #text1 {
     float: left;
-    font-size: 1em;
-    width: 48.768539%;
+    font-size: 90%;
+    width: 48.768189%;
     height: auto;
     text-align: center;
     font-weight: normal;
@@ -164,11 +156,9 @@ body {
     clear: none;
     min-height: 144px;
     position: absolute;
-    top: 15.567501%;
-    left: 25.615784%;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
+    top: 18.295484%;
+    left: 25.615399%;
+    font-family: ocr-a-std;
 }
 
 #textspan1 {
@@ -176,9 +166,6 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(255, 254, 210);
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
 }
 
 #textspan {
@@ -186,27 +173,24 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(159, 214, 174);
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
 }
 
 #image {
     float: left;
     width: auto;
-    max-width: 8.447556%;
+    max-width: 6.15%;
     height: auto;
     clear: none;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 42.539487%;
-    left: 20.465385%;
+    top: 42.00431%;
+    left: 21.482022%;
 }
 
 #text2 {
     float: left;
-    font-size: 1em;
-    width: 14.61557%;
+    font-size: 90%;
+    width: 14.61466%;
     height: auto;
     text-align: center;
     font-weight: normal;
@@ -216,15 +200,13 @@ body {
     position: absolute;
     top: 77.096308%;
     left: 16.946647%;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
+    font-family: ocr-a-std;
 }
 
 #text3 {
     float: left;
-    font-size: 1em;
-    width: 14.61557%;
+    font-size: 90%;
+    width: 14.61466%;
     height: auto;
     text-align: center;
     font-weight: normal;
@@ -235,15 +217,13 @@ body {
     position: absolute;
     top: 77.096308%;
     left: 34.022905%;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
+    font-family: ocr-a-std;
 }
 
 #text4 {
     float: left;
-    font-size: 1em;
-    width: 14.61557%;
+    font-size: 90%;
+    width: 14.61466%;
     height: auto;
     text-align: center;
     font-weight: normal;
@@ -253,15 +233,13 @@ body {
     position: absolute;
     top: 77.096308%;
     left: 51.099163%;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
+    font-family: ocr-a-std;
 }
 
 #text5 {
     float: left;
-    font-size: 1em;
-    width: 14.61557%;
+    font-size: 90%;
+    width: 14.61466%;
     height: auto;
     text-align: center;
     font-weight: normal;
@@ -271,45 +249,43 @@ body {
     position: absolute;
     top: 77.096308%;
     left: 68.17542%;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
+    font-family: ocr-a-std;
 }
 
 #image1 {
     float: left;
     width: auto;
-    max-width: 13.712052%;
+    max-width: 10%;
     height: auto;
     clear: none;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 42.863909%;
-    left: 35.288638%;
+    top: 41.78645%;
+    left: 36.493616%;
 }
 
 #image2 {
     float: left;
     width: auto;
-    max-width: 17.690207%;
+    max-width: 15%;
     height: auto;
     clear: none;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 48.940302%;
-    left: 50.484523%;
+    top: 47.57631%;
+    left: 51.230799%;
 }
 
 #image3 {
     float: left;
     width: auto;
-    max-width: 12.918295%;
+    max-width: 10%;
     height: auto;
     clear: none;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 44.199484%;
-    left: 69.163705%;
+    top: 41.78645%;
+    left: 70.5712%;
 }
 
 #textspan3 {
@@ -317,9 +293,6 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(255, 254, 210);
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
 }
 
 #textspan4 {
@@ -327,9 +300,6 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(255, 254, 210);
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
 }
 
 #textspan5 {
@@ -337,9 +307,6 @@ body {
     font-size: 1em;
     line-height: 1em;
     color: rgb(255, 254, 210);
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
 }
 
 #textspan2 {
@@ -347,9 +314,6 @@ body {
     font-size: 120%;
     line-height: 1em;
     color: rgb(255, 254, 210);
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
 }
 
 #footer {
@@ -361,11 +325,11 @@ body {
     top: auto;
     left: 0%;
     bottom: 0px;
-    margin: 741px 0% 0% 1.265405%;
+    margin-top: 741px;
+    margin-left: 1.265405%;
+    margin-bottom: 0%;
+    margin-right: 0%;
     right: auto;
-    font-family: "ocr-a-std",sans-serif;
-    font-style: normal;
-    font-weight: 400;    
 }
 
 #rocket {
@@ -438,7 +402,7 @@ body {
     height: 16px;
     margin-left: 0%;
     margin-top: 176.28125px;
-    clear: both;
+    clear: none;
     width: 100%;
     background-color: rgb(253, 253, 253);
     visibility: hidden;
@@ -455,7 +419,7 @@ body {
 
     #text {
         width: 48.768057%;
-        font-size: 32px;
+        font-size: 28px;
         top: 7px;
         left: 25.615971%;
         height: auto;
@@ -469,53 +433,38 @@ body {
         height: auto;
         min-height: 101px;
         line-height: 110%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text2 {
         width: 14.616034%;
-        font-size: 90%;
+        font-size: 85%;
         top: 78.005636%;
         left: 16.945469%;
         line-height: 110%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text3 {
         width: 14.616034%;
-        font-size: 90%;
+        font-size: 85%;
         top: 78.005636%;
         left: 34.022263%;
         line-height: 110%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text4 {
         width: 14.616034%;
-        font-size: 90%;
+        font-size: 85%;
         top: 78.005636%;
         left: 51.099056%;
         line-height: 110%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text5 {
         width: 14.616034%;
-        font-size: 90%;
+        font-size: 85%;
         top: 78.005636%;
         left: 68.174286%;
         line-height: 110%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #image2 {
@@ -567,9 +516,6 @@ body {
         margin-left: 19.311265%;
         clear: none;
         width: 14.614775%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
@@ -579,9 +525,6 @@ body {
         margin-left: auto;
         clear: none;
         margin-right: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
@@ -591,9 +534,6 @@ body {
         width: 14.614775%;
         margin-left: 66.19%;
         float: none;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #download_button:hover {
@@ -609,59 +549,41 @@ body {
         top: 19.204812%;
         left: 16.944948%;
         width: 65.976695%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text {
         width: 48.767015%;
-        font-size: 30px;
+        font-size: 26px;
         top: 37px;
         left: 25.614408%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text2 {
         width: 14.614471%;
-        font-size: 80%;
+        font-size: 75%;
         top: 68.912359%;
         left: 16.944948%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text3 {
         width: 14.614471%;
-        font-size: 80%;
+        font-size: 75%;
         top: 68.912359%;
         left: 34.02122%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text4 {
         width: 14.614471%;
-        font-size: 80%;
+        font-size: 75%;
         top: 68.912359%;
         left: 51.097492%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text5 {
         width: 14.614471%;
-        font-size: 80%;
+        font-size: 75%;
         top: 68.912359%;
         left: 68.173764%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #fungo_logo {
@@ -693,9 +615,6 @@ body {
         position: absolute;
         top: 0px;
         left: 19.310014%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
@@ -708,9 +627,6 @@ body {
         margin-right: 0px;
         top: 0px;
         left: 40.624031%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
@@ -726,9 +642,6 @@ body {
         left: 68.5%;
         right: auto;
         bottom: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #download_button:hover {
@@ -743,10 +656,7 @@ body {
         top: 5.362798%;
         left: 18.204622%;
         width: 65.980834%;
-        font-size: 22px;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
+        font-size: 18px;
     }
 
     #text1 {
@@ -754,9 +664,6 @@ body {
         font-size: 60%;
         top: 15.715816%;
         left: 18.249718%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text2 {
@@ -765,9 +672,6 @@ body {
         top: 56.268629%;
         left: 18.303269%;
         height: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text3 {
@@ -776,9 +680,6 @@ body {
         top: 56.268629%;
         left: 52.457723%;
         height: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text4 {
@@ -788,9 +689,6 @@ body {
         left: 18.249718%;
         height: auto;
         min-height: 49.234375px;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text5 {
@@ -800,9 +698,6 @@ body {
         left: 52.288613%;
         height: auto;
         min-height: 49px;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #image2 {
@@ -878,8 +773,11 @@ body {
         top: 0px;
         left: 0px;
         width: 97.598647%;
-        margin: -1.8% 0% 0% 2.409808%;
+        margin-top: -1.8%;
+        margin-left: 2.409808%;
         clear: both;
+        margin-bottom: 0%;
+        margin-right: 0%;
     }
 
     #rocket {
@@ -938,9 +836,6 @@ body {
         top: 0px;
         left: 0px;
         position: static;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #htp {
@@ -954,9 +849,6 @@ body {
         left: 0px;
         position: static;
         margin-right: 0px;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #facebook {
@@ -969,9 +861,6 @@ body {
         left: 0px;
         margin-top: -12.794218%;
         clear: none;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #download_button:hover {
@@ -1034,9 +923,6 @@ body {
         top: 9.839925%;
         left: 8.510742%;
         bottom: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text {
@@ -1044,9 +930,6 @@ body {
         top: 1.934734%;
         left: 8.510742%;
         width: 82.919752%;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text2 {
@@ -1057,9 +940,6 @@ body {
         min-height: 30px;
         font-size: 70%;
         bottom: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text3 {
@@ -1070,9 +950,6 @@ body {
         min-height: 46px;
         font-size: 70%;
         bottom: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text4 {
@@ -1083,9 +960,6 @@ body {
         min-height: 29.234375px;
         font-size: 70%;
         bottom: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #text5 {
@@ -1096,9 +970,6 @@ body {
         min-height: 33px;
         font-size: 70%;
         bottom: auto;
-        font-family: "ocr-a-std",sans-serif;
-        font-style: normal;
-        font-weight: 400;
     }
 
     #box {
