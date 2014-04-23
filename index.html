@@ -1,43 +1,494 @@
 <!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <html>
-<!-- This code is only meant for previewing your Reflow design. -->
 <head>
-	<link rel="stylesheet" href="boilerplate.css" />
-	<link rel="stylesheet" href="Page_1.css" />
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-</head>
-<body>
+<link rel="icon" href="img/favicon.png" type="image/png">
+<script type="text/javascript" src="//use.typekit.net/ujd4tvi.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-	<div id="primaryContainer" class="primaryContainer clearfix">
-		<div id="wrapper" class="clearfix">
-			<div id="header" class="clearfix">
-				<a id="screenshot">
-					HOME
-				</a>
-				<p id="htp" href="the_game.html">
-					THE GAME
-				</p>
-				<a id="facebook" href="www.facebook.com/planethunt" target="_blank">
-					FACEBOOK<br />
-				</a>
-			</div>
-			<div id="box" class="clearfix">
-				<img id="rocket_animated" src="img/loading_rocket.gif" class="image" />
-				<img id="logo" src="img/planet_hunt.png" class="image" />
-				<a href="www.apple.com/it" target="_blank">
-					<img id="download_button" src="img/download_button.png" class="image" />
-				</a>
-				<img id="moon" src="img/moon3.png" class="image" />
-			</div>
-			<div id="footer" class="clearfix">
-				<img id="rocket" src="img/rocket2.png" class="image" />
-				<img id="hearth" src="img/hearth.png" class="image" />
-				<a href="www.fungostudios.com" target="_blank">
-					<img id="fungo_logo" src="img/fungo_logo.png" class="image" />
-				</a>
-			</div>
-		</div>
-	</div>
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="css/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="css/themes/default/default.css" type="text/css" media="screen" />
+<!--<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />-->
+
+<!-- Slider END -->
+
+  <script type="text/javascript" src="css/jquery-1.8.3.min.js"></script>
+  <!-- Included CSS Files, use foundation.css if you do not want minified code -->
+  <link rel="stylesheet" href="css/foundation/stylesheets/foundation.min.css"/>
+  <link rel="stylesheet" href="css/foundation/stylesheets/app.css"/>
+  <!-- Custom Modernizr for Foundation -->
+  <script src="css/foundation/javascripts/foundation.min.js"></script>
+  <script src="css/foundation/javascripts/jquery.foundation.magellan.js"></script>
+  <script src="css/foundation/javascripts/app.js"></script>
+  <title>FunGo Studios</title>
+  <link rel="stylesheet" type="text/css" href="css/fungo.css"/>
+</head>
+
+<body>
+  <div id="center">
+    <a style="display: block;" id="home" data-magellan-destination="home"></a>
+   <!-- Top Bar START -->
+   <div id="top_bar" data-magellan-expedition="fixed">
+    <div id="welcome">
+      <img src="img/welcome.png">
+
+    </div>
+    <div>
+      <ul class="nav">
+        <li id="li2" data-magellan-arrival="home"><a href="#home"><img src="img/funghetto_white.png"> </a></li>
+        <li>|</li>
+        <li data-magellan-arrival="games"><a href="#games">GAMES</a></li>
+        <li>|</li>
+        <li data-magellan-arrival="tregg"><a href="#tregg">TECH</a></li>
+        <li>|</li>
+        <!-- <li data-magellan-arrival="team"><a href="#team">TEAM</a></li>
+        <li>|</li> -->
+        <li data-magellan-arrival="partnerz"><a href="#partnerz">PARTNERS</a></li>
+        <li>|</li>
+        <li data-magellan-arrival="contacts"><a href="#contacts">CONTACTS</a></li>
+        <li> . </li>
+        <li id="li2"> <a href="http://fungostudios.tumblr.com/" target="_blank" alt="Watch the blog"> <img src="img/blog_logo.png"> </a></li>
+      
+
+      </ul>
+    </div>
+    <div class="social">
+      <ul>
+        <li id="contact"> <p> Contact us</p></li>
+        <li> <a href="http://www.facebook.com/fungostudios" target="_blank" alt="follow on Facebook"> <img src="img/facebook.png"></a></li>
+        <li> <a href="http://www.twitter.com/fungostudios" target="_blank"> <img src="img/twitter.png"></a></li>
+        <li> <a href="mailto:team@fungostudios.com" target="_self"> <img src="img/mail.png"></a></li>
+      </ul>
+    </div> 
+  </div>
+  <!-- Top Bar START -->
+  
+
+  <!-- SLIDER -->
+ 
+  
+  <div id="fungo_frame">
+    <div id="bubbles">
+      <img src="img/fungo_bubbles.png">
+    </div>
+    <div id="speech_2">
+      <img src="img/speech_2.png" />
+    </div>
+    <div id="speech">
+      <img src="img/speech.png" />
+    </div>
+    <div id="fungo_char_div">
+      <img src="img/fungo_char.png" />
+    </div>
+    <div id="logotype">
+      <img src="img/fungo_logotype.png">
+    </div>
+
+
+    
+  </div>
+
+<div id="about_us">
+  <div id="about_img">
+    <img src="img/about.png">
+  </div>
+  
+<p>FunGo is a mobile game studios based in H-Farm, one of the most prominent Italian venture incubator placed in the Venice Area. The company was founded in 2011 and focuses on the development and distribution of location-based social games, mainly on mobile platforms.
+A tight-knit and high-skilled team, a proprietary technology and strong motivation make FunGo Studios one of the most innovative European gaming company with two titles available on mobile stores and a new third on the launching pad.</p>
+</div>
+
+<div id="stars">
+    <a style="display: block;" id="news" data-magellan-destination="news"><img src="img/breaking_sep.png"></a>
+  </div>
+
+<div id="slider_div">
+  <div id="slider_sx"><!-- SLIDER DI SINISTRA -->
+    <div class="slider-wrapper theme-default">
+      <div id="slider" class="nivoSlider">
+        <a href="http://www.fungostudios.com/planethunt" target="_blank"><img src="img/images/22_04_2014.png" href="http://www.fungostudios.com/planethunt" target="_blank" alt="" title="#htmlcaption"></a>
+        
+        <!-- <img src="images/news4.jpg" alt="" title="#htmlcaption3"/> -->
+      </div>
+    </div>
+
+      <div id="htmlcaption" class="nivo-html-caption">
+      <strong>PLANET HUNT - NEW GAME AVAILABLE ON APP STORE!</strong> <br> Take a surreal journey around the galaxy, searching for the most  bizarre planets from outer space: travel in the hyperspace dimension tunnel and hunt planets with powerful space rockets! Planet Hunt requires concentration, tactic and timing to catch all this astonishing stars in the universe: so far no Planet Hunters have succeeded in this venture... will you be the first? Planet Hunter is your next challenge: easy to play but hard to beat! <a href="https://itunes.apple.com/it/app/planet-hunt-shoot-to-the-moon/id855043927?l=en&mt=8" target="_blank"><strong>DOWNLOAD NOW</strong></a>
+
+    </div>
+    <!-- <div id="htmlcaption4" class="nivo-html-caption4">
+      <strong>Laura</strong> qui ci va una breve descrizione dell'articolo ed il link al blog post <a href="#">a link</a>.
+    </div> -->
+  </div>
+</div>
+  
+  
+<br><br><br>
+  <!--SEPARATORE-->
+  <div id="separatore">
+    <a style="display: block;" id="games" data-magellan-destination="games"><img src="img/games_bar.png"></a>
+  </div>
+  <div id="section_type">
+    <img src="img/games_type.png">
+  </div>
+  <!--SEPARATORE-->
+
+  <!--PLACECOMMNADER-->
+  <!--
+  <div id="games_sec">
+    
+    <div id="gowar">
+      <p id="title_games"> <b>PLACECOMMANDER</b> - Get on board!</p>
+    </div>
+    <div id="icon">
+      <a  target="_blank"><img src="img/commander_icon_200.png"  target="_blank"></a>
+    </div>
+    <div id="games_text">
+      <p class="text">First MTV Mobile Game, Place Commander is the strategy social game that turns you into a brave soldier at the beginning of a special career. Manage your troops and conquer your favourite spots to challenge friends straight from your iPhone in a real-time multiplayer battle to the last bullett. Climb the levels and - mission after mission - rise in military rank to reach the top earlier than your friends.
+Beeing a soldier requires steady nerves, bravery and a lot of strategy. 
+Will you live through thirteen different levels of difficulty and more than one-hundred missions?
+Get ready, adventure is waiting for you!</p> 
+
+      <ul class="infos">
+        <li> Find out more on </li>
+        <li class="url"><a href="http://www.placecommander.com" target="_blank">www.placecommander.com</a></li>
+        <li class="facebook"><a href="http://www.facebook.com/PlaceCommander" target="_blank">Pagina facebook</a></li>
+        <li class="twitter"><a href="https://twitter.com/placecommander" target="_blank">Link twitter</a></li>
+      </ul>
+
+
+    </div>
+    
+    <div id="video_commander">
+      <a href="http://youtu.be/CAKBtwur5t0" target="blank"><img src="img/video.png"></a>
+    </div>
+    <div id="divisorio">
+      <img src="img/divisorio.png">
+    </div>
+
+   
+    </div>
+    --> 
+    <!--GOWAR-->
+    <div id="games_sec">
+    <div id="gowar">
+      <p id="title_games"> <b>GOWAR</b> - Make peace, Play GoWar!</p>
+    </div>
+    <div id="icon">
+      <a href="http://bit.ly/jmQBv5" target="_blank"><img src="img/gowar_icon_200.png" href="http://bit.ly/jmQBv5" target="_blank"></a>
+    </div>
+    <div id="games_text">
+      <p class="text">GoWar is the social mobile game that brings adventurous battles and mighty tanks in your quite city. GoWar reveals the great strategist inside you: conquer real places, manage your troops and declare war on your favorite spots to build your empire. With GoWar you will be able to play with and against real people while roaming around your city and interacting with other players. 
+The first FunGo title available for iPhone and Android mobile phone will definitely shake your life. Jump with us in war trench and join thousand of soldiers in our community!</p> 
+
+      <ul class="infos">
+        <li> Find out more on </li>
+        <li class="url"><a href="http://www.gowar.com" target="_blank">www.gowar.com</a></li>
+        <li class="facebook"><a href="http://www.facebook.com/playgowar" target="_blank">Pagina facebook</a></li>
+        <li class="twitter"><a href="https://twitter.com/playgowar" target="_blank">Link twitter</a></li>
+      </ul>
+
+
+    </div>
+    <div id="download_games">
+      <a href="http://bit.ly/jmQBv5" target="_blank"><img src="img/commander_store.png" href="http://bit.ly/jmQBv5" target="_blank"></a><br><br>
+      <a href="http://bit.ly/uBZNxZ" target="_blank"><img src="img/google_store.png" href="http://bit.ly/uBZNxZ" target="_blank"></a>
+    </div>
+    </div>
+
+
+
+
+
+  <!-- <div id="games">
+    <div id="intestazione">
+      <img id="commander_logo" src="commander_logo.png">
+      <img id="new" src="new.png">
+    </div>
+    <div id="descrizione">
+      <p id="text">
+        <img id="float_left" src="trittico.png" alt=""> <br><br> <b>GET ON BOARD?</b>
+         - First MTV Mobile Game, Place Commander is the strategy social game that turns you into a brave soldier at the beginning of a special career. Manage your troops and conquer your favourite spots to challenge friends straight from your iPhone in a real-time multiplayer battle to the last bullett. Climb the levels and - mission after mission - rise in military rank to reach the top earlier than your friends.
+Beeing a soldier requires steady nerves, bravery and a lot of strategy. 
+Will you live through thirteen different levels of difficulty and more than one-hundred missions?
+Get ready, adventure is waiting for you!
+
+      </p>
+    </div>
+    <div>
+      <div id="video_pc">
+      <a href="http://youtu.be/CAKBtwur5t0" target="blank"><img src="video.png"></a>
+      </div>
+      <div id="site">
+      <a href="http://www.placecommander.com" target="_blank"><img src="commander_site.png"></a>
+    </div>
+    </div>
+    <div id="download">
+      <a id="commander_icon" href="http://goo.gl/NiKCV" target="_blank"><img src="commander_icon.png"></a>
+      <a id="commander_store"href="http://goo.gl/NiKCV" target="_blank"><img src="commander_store.png"></a>
+      <img id="free" src="free.png">
+    </div>
+    <div id="divisorio">
+      <img src="divisorio.png">
+    </div>
+  </div> -->
+
+<!--GOWAR-->
+<!--
+  <div id="games_gowar">
+    <div id="intestazione">
+      <img id="gowar_logo" src="gowar_logo.png">
+    </div>
+    <div id="descrizione">
+      <p id="text">
+        <img id="float_left" src="trittico_gowar.png" alt=""> <br><br> <b>VIRTUAL WAR, REAL PLACES</b>
+ - GoWar is the social mobile game that brings adventurous battles and mighty tanks in your quite city. GoWar reveals the great strategist inside you: conquer real places, manage your troops and declare war on your favorite spots to build your empire. With GoWar you will be able to play with and against real people while roaming around your city and interacting with other players. 
+The first FunGo title available for iPhone and Android mobile phone will definitely shake your life. Jump with us in war trench and join thousand of soldiers in our community!
+
+      </p>
+    </div>
+    <div id="site_gowar">
+      <a href="http://www.gowar.com" target="_blank"><img src="gowar_site.png"></a>
+    </div>
+    <br>
+    <div id="free_gowar">
+      <img src="free.png" width="73" height="21">
+    </div>
+    <div id="download">
+      <a id="commander_icon" href="http://bit.ly/jmQBv5" target="_blank"><img src="gowar_icon.png"></a>
+      <a id="commander_store"href="http://bit.ly/jmQBv5" target="_blank"><img src="commander_store.png"></a>
+      <a id="google_store" href="http://bit.ly/uBZNxZ" target="blank"> <img src="google_store.png"></a>
+      </div>
+     </div>
+
+   -->
+     <!--SEPARATORE-->
+  <div id="separatore">
+    <a style="display: block;" id="tregg" data-magellan-destination="tregg"><img src="img/tregg_bar.png"></a>
+  </div>
+  <div id="section_type">
+    <img src="img/tregg_type.png">
+  </div>
+  <!--SEPARATORE-->
+<div id="tregg">
+        <p id="text">
+        <img id="float_left" src="img/tregg_image.png" alt=""><br> <b>FUN IS NOW MOBILE WITH TREGG</b>
+ - All our works shows off our passions for games, fun and technology.
+Our mission to push on interaction among players and real venues has its fundamentals in something new we created: TREGG “Technology and Real-Time Engine for Geolocalized Games”. This is an innovative manages all the different features in our games (awards, leaderboards, events) in a simple way and moving all the effort to an unique platform. TREGG integrates different modules such as: gaming API, user-to-social-networks linking and geolocalization services. TREGG makes easy to spread fun from people smartphones to the rest of the world.
+</p>
+</div>
+
+
+<!--SEPARATORE
+  <div id="separatore">
+    <a style="display: block;" id="team" data-magellan-destination="team"><img src="team_bar.png"></a>
+    </div>
+  <div id="section_type">
+    <img src="team_type.png">
+  </div>
+    SEPARATORE
+
+  <div id="team">
+    <div id="member_1">
+      <div id="image">
+        <img src="nick_image.png">
+      </div>
+      <div id="member_text">
+        <p><b>Nicola Brisotto</b> - After graduating in Software Engineering, he went on to a career as a developer in different high-tech startups, both as employee and as freelence. Specialized in mobile and web development, Nicola loves anything that concerns with technology and web.</p>
+      </div>
+    </div>
+    <div id="member_2">
+      <div id="image">
+        <img src="fra_image.png">
+      </div>
+      <div id="member_text">
+        <p><b>Francesco Mancusi</b> - Graduated in "Electronic Engineering" and later in "Photography and Digital Imaging" in London, Francesco is a Senior iOS developer with skills in Graphics/UX design. He co-founded FunGo Studios with Nicola in 2011.</p>
+      </div>
+    </div>
+  </div>
+
+<div id="team">
+    <div id="member_1">
+      <div id="image">
+        <img src="matte_image.png">
+      </div>
+      <div id="member_text">
+        <p><b>Matteo Centenaro</b> - PhD in Computer Science, Matteo is a Senior Software Developer with great expertise in web applications, Ruby and RoR. Matteo is one of the family since the fist prototype and focuses his work on the planning and on the development of the TREGG platform.</p>
+      </div>
+    </div>
+    <div id="member_2">
+      <div id="image">
+        <img src="fede_image.png">
+      </div>
+      <div id="member_text">
+        <p><b>Federico Pavan</b> - Before jumping into FunGo Team as graphic designer, Federico was one of the so-called GoWar super gamers since he had been playing the game night and day for months. He is now our “Michelangelo” drawing soldiers and creating wonderful graphic world from scratch.</p>
+      </div>
+    </div>
+  </div>
+
+<div id="team">
+    <div id="member_1">
+      <div id="image">
+        <img src="laura_image.png">
+      </div>
+      <div id="member_text">
+        <p><b>Laura Sicolo</b> - Working with the team as social media manager, her daily struggle consists in translating weird technical terms such as mysql, parsing and push notifications into memorable social media updates and blog post to share with FunGo' fans.</p>
+      </div>
+    </div>
+    <div id="member_2">
+      <div id="image">
+        <img src="mario_image.png">
+      </div>
+      <div id="member_text">
+        <p><b>Mario Sacchi</b> - Mario has more than seven years experience in producing board games. He love testing, devising and writing games for "fans and family".</p>
+      </div>
+    </div>
+  </div>
+<div id="team">
+    <div id="member_1">
+      <div id="image">
+        <img src="max_image.png">
+      </div>
+      <div id="member_text">
+        <p><b>Massimiliano Scifo</b> - Max loves punk rock music and arancini (typical Sicilian stuffed rice balls). Joined the team recently, he's actually working as Unity Developer.
+ </p>
+      </div>
+    </div>
+    <div id="member_2">
+      <div id="image">
+        <img src="marco_image.png">
+      </div>
+      <div id="member_text">
+        <p><b>Marco Oliviero</b> - After obtaining his Master in computer game development, Marco joined our team as software developer and together with Max he is working on FunGo's titles since fall 2012.</p>
+      </div>
+    </div>
+  </div>
+-->
+
+  <!--SEPARATORE-->
+  <div id="separatore">
+    <a style="display: block;" id="partnerz" data-magellan-destination="partnerz"><img src="img/partner_bar.png"></a>
+    </div>
+  <div id="section_type">
+    <img src="img/partner_type.png">
+  </div>
+  <!--SEPARATORE-->
+  <div id="partner_wrapper">
+    <div id="partner_img">
+      <img src="img/mtv.png">
+    </div>
+    <div id="partner_img">
+      <img src="img/lucca.png">
+    </div>
+    <div id="partner_img">
+      <img src="img/codem.png">
+    </div>
+  </div>
+
+  <!--SEPARATORE-->
+  <div id="separatore">
+    <a style="display: block;" id="contacts" data-magellan-destination="contacts"><img src="img/contacts_bar.png"></a>
+    </div>
+  <div id="section_type">
+    <img src="img/contacts_type.png">
+  </div>
+  <!--SEPARATORE-->
+<div id="qubo">
+  <p id="where"> FunGo Studios main headquarter is settled in a beautiful<br> valley bounded by the Sile river, located between <br> Treviso and Venice province. It is a magic place very<br> easy to reach either by car, train or from the Venice<br> International Airport.</p>
+  <p id="where_fungo">FunGo Studios- ITALY</p>
+  <p id="where_contacts">Tenuta Ca' Tron <br>Via Sile, 41 - 31056 Roncade<br>Treviso - Italy<br><br>Tel. +39.0422.789611 - Fax +39.0422.789666 - Mail: <a href="mailto:team@fungostudios.com" target="_self">team@fungostudios.com</a></p>
+<img src="img/qubo.png">
+
+</div>
+
+<div id="pre_footer">
+
+    <div id="foto_farm" class="rollover">
+        <a href="http://www.h-farmventures.com" target="_blank"><img id="float_left" src="img/farm_white.png" alt=""></a> 
+      <!-- <p> <a href="http://www.h-farmventures.com" target"_blank"><img id="float_left" src="farm_white.png" alt="Foto Scambiata"></a>
+       FunGo Studios is growing in H-FARM</p> -->
+    </div>
+    <div id="text_farm">
+      <p>FunGo Studios is growing in H-FARM</p>
+
+    </div>
+  
+  <div id="c">
+    <b>&copy; FunGo Studios Srl</b>, P. IVA: 04463380263, All rights reserved
+  </div>
+</div>
+
+
+<br>
+  <div id="footer">
+    
+        
+
+  </div>
+
+</div><!--CENTER END-->
+
+
+
+<script type="text/javascript">
+$('#fungo_char_div').hover(
+      // mouse in
+      function() {
+        $('#speech').fadeIn('slow'); },
+      // mouse out
+      function() {
+        $('#speech').fadeOut('fast');
+      }
+      );
+</script>
+<script type="text/javascript">
+$('#bubbles').hover(
+      // mouse in
+      function() {
+        $('#speech_2').fadeIn('slow'); },
+      // mouse out
+      function() {
+        $('#speech_2').fadeOut('fast');
+      }
+      );
+</script>
+
+
+<!-- Slider -->
+
+
+<script type="text/javascript" src="css/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 400, // Slide transition speed
+        pauseTime: 3000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        prevText: 'Prev', // Prev directionNav text
+        nextText: 'Next', // Next directionNav text
+        randomStart: false, // Start on a random slide
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+    });
+});
+</script>
+
+
 </body>
 </html>

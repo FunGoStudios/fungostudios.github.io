@@ -1,0 +1,770 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('fonts/Quicksand_Book-webfont.eot');
+    src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+         url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+         url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: book;
+
+}
+
+@font-face {
+    font-family: 'light at the end';
+    src: url('fonts/light_at_the_end.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding: 0px;	
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+
+#center
+{
+	margin-left: -516px;
+	left: 50%;
+	right: auto;
+	width: 1032px;
+	background-image: url('img/center.png');
+	background-repeat: repeat-y;
+	height: 100%;
+	position: absolute;
+	margin-top: 0px;
+	
+
+}
+
+#top_bar
+{
+	height: 30px;
+	width: 1032px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	background-color: #bd3329;
+	margin: 0 auto;
+	position: absolute; /* AGGIUNTO */
+	margin-left: 0px;
+	z-index: 10;
+	/*position: fixed;*/
+	top: 0px;
+	
+}
+
+#welcome
+{
+	
+	/*border: 1px solid;*/
+	float: left;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+
+.social {
+	width: 165px;
+	height: 30px;
+	/*border: 1px solid;*/
+	right: 0px; /* AGGIUNTO */
+	top: 3px; /* AGGIUNTO */
+	left:935px;
+	list-style: none;
+	position: absolute; /* AGGIUNTO */
+	
+	
+}
+
+#contact
+{
+	font-family: Light at the end;
+	top:3px;
+	left: -85px;
+	position: absolute;
+	
+}
+.social li {
+	display: inline-block;
+}
+
+.nav {
+
+
+	/*border: 1px solid;*/
+	line-height: 2.5;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #bd3329;
+	list-style: none;
+	width: 500px;
+	margin-bottom: 0;
+
+	/*width: 1024px;*/
+	text-align: center;
+	height: 30px;
+	font-family: Light at the end;
+
+
+	
+}
+.nav li {
+
+	display: inline-block;
+	vertical-align: middle;
+	color:white;
+}
+
+.nav a { color: black;}
+
+.active a {
+
+	margin-left: auto;
+	margin-right: auto;
+	color: white;}
+
+
+#li2
+{
+	margin-top: 2px;
+}
+
+#fungo_frame
+{
+	margin-top: 40px;
+	/*border: 1px solid;*/
+	margin-left: 0px;
+	width: 1032px;
+	height: 600px;
+	position: relative;
+}
+
+#bubbles
+{
+	/*border: 1px solid;*/
+	position: absolute;
+	left: 425px;
+	top: 50px;
+}
+
+#speech_2
+{
+	/*border: 1px solid;*/
+	display: none;
+	position: absolute;
+	top:30px;
+	left: 110px;
+	z-index:-1;
+}
+
+#fungo_char_div
+{
+	/*border: 1px solid;*/
+	bottom: 100px;
+	left: 425px;
+	position: absolute;
+	
+}
+
+#speech
+{
+	/*border: 1px solid;*/
+	top: 200px;
+	right: 120px;
+	position: absolute;
+	display: none;
+	z-index: 1;
+
+}
+
+#logotype
+{
+	position: absolute;
+	bottom: 0px;
+	left: 276px;
+}
+
+#separatore
+{
+	margin-top: 30px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+	margin-right: 6px;
+	height: 80px;
+}
+
+#section_type
+{
+	position: absolute;
+	left: 40px;
+}
+
+#games_sec
+{
+	position: relative;
+	margin-top: 100px;
+	margin-left: 4px;
+	height: 550px;
+	width: 1024px;
+	border: 0px solid;
+
+}
+
+#gowar
+{
+	position: absolute;
+	margin-top: 20px;
+
+}
+
+#title_games
+{
+	margin-left: 40px;
+	font-family: quicksand;
+	font-style: book;
+	font-size: 30px;
+	text-align: justify;
+	margin-right: 30px;
+
+}
+
+#icon
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 40px;
+	width: 256px;
+	height: 256px;
+	box-shadow: 2px 2px 8px #888888;
+	border-radius:50px;
+}
+
+#games_text
+{
+	
+	position: absolute;
+	margin-top: 110px;
+	width: 630px;
+	margin-left: 350px;
+	font-family: quicksand;
+	font-style: book;
+	font-size: 16px;
+	text-align: justify;
+
+}
+
+#games_text ul {
+	list-style: none;
+	margin-top: 100px;
+
+
+}
+
+#games_text li {
+	display: inline-block;
+	height: 20px;
+	margin-right: 25px;
+}
+
+#games_text li.url a{
+	color: #bd3329;
+	font-family: Light at the end;
+	font-size: 16px;
+
+}
+
+#games_text li.facebook a {
+	background: url(img/facebook_games.png) top left no-repeat;
+	text-indent: -99999px;
+	display: block;
+	width: 64px;
+	height: 16px;
+}
+
+#games_text li.twitter a {
+	background: url(img/twitter_games.png) top left no-repeat;
+	text-indent: -99999px;
+	display: block;
+	width: 50px;
+	height: 14px;
+}
+
+
+#download_games
+{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 385px;
+
+}
+
+#video_commander
+{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 650px;
+}
+
+#facebook_games
+{
+	position: absolute;
+	margin-top: 412px;
+	margin-left: 750px;
+}
+
+
+/*#games
+{
+	border: 1px solid;
+	background-color: blue;
+	width: 1024px;
+	margin-left: 4px;
+	height: 1140px;
+	position: relative;
+	margin-top: 40px;
+}
+*/
+
+#games_gowar
+{
+	border: 0px solid;
+	width: 1024px;
+	margin-left: 4px;
+	height: 1070px;
+	position: relative;
+	margin-top: 40px;
+}
+
+#commander_logo
+{
+	position: absolute;
+	left: 351px;
+}
+
+#gowar_logo
+{
+	position: absolute;
+	left: 400px;
+}
+
+#new
+{
+	position: absolute;
+	right: 30px;
+}
+
+#descrizione
+{
+	/*border: 1px solid;*/
+	position:absolute;
+	top: 260px;
+
+}
+
+#float_left
+{
+	float:left;
+	margin: 0 0 10px -10px;
+	padding: 40px;
+}
+
+#text
+{
+	font-family: quicksand;
+	font-style: book;
+	font-size: 16px;
+	text-align: justify;
+	margin-right: 30px;
+}
+
+#site
+{
+	position: absolute;
+	top: 740px;
+	left: 319px;
+}
+
+#site_gowar
+{
+	position: absolute;
+	top: 680px;
+	left: 400px;
+}
+
+#download
+{
+	/*border: 1px solid;*/
+	position:absolute;
+	margin-top: 840px;
+}
+
+#commander_icon
+{
+	position: absolute;
+	left: 320px;
+}
+
+#commander_store
+{
+	position: absolute;
+	left:470px;
+	top:35px;
+}
+
+#google_store
+{
+	position: absolute;
+	left:470px;
+	top:-10px;
+}
+
+#free
+{
+	position: absolute;
+	left:510px;
+}
+
+#free_gowar
+{
+	position: absolute;
+	top:800px;
+	left:550px;
+}
+
+#divisorio
+
+{
+	position: absolute;
+	top: 550px;
+	left:351px;
+}
+
+#tregg
+{
+	/*border: 1px solid;*/
+	width: 1024px;
+	margin-left: 4px;
+	height: 500px;
+	position: relative;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+#team
+{
+	/*border: 1px solid;*/
+	width: 1024px;
+	margin-left: 4px;
+	height: 550px;
+	position: relative;
+	margin-top: 40px;
+}
+
+#member_1
+{
+	position:absolute;
+	/*border: 1px solid;*/
+	height: 494px;
+	width:394px;
+	margin: 50px 50px 50px 50px;
+}
+
+#member_2
+{
+	position:absolute;
+	/*border: 1px solid;*/
+	height: 494px;
+	width:394px;
+	right: 50px;
+	top:115px;
+}
+
+#image
+{
+	margin-left:85px;
+}
+
+#member_text
+{
+	margin-top:20px;
+	font-family: quicksand;
+	text-align: justify;
+	font-size: 120%;
+
+
+}
+
+p
+{
+	font-size: 16px;
+}
+
+#footer
+{
+	height: 282px;
+	width: 1024px;
+	background-image: url('img/footer.png');
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+	position: relative;
+}
+
+#pre_footer
+{
+	margin-top: 550px;
+	/*border: 1px solid;*/
+	position: relative;
+	height:50px;
+	display: inline-block;
+	width: 1024px;
+	margin-left: 4px;
+	z-index: 8;
+}
+
+#pre_footer p
+{
+	font-family: quicksand;
+	font-size: 13px;
+	font-style: book;
+	
+}
+
+#farm
+{
+	position: absolute;
+	top: 237px;
+	left: 20px;
+}
+
+#c
+{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	font-family: quicksand;
+	font-size: 13px;
+	font-style: book;
+}
+
+#foto_farm
+{
+	margin-top: 5px;
+	margin-left: 20px;
+ 	background:url(img/farm_white.png) center center no-repeat #fff;
+ 	height:36px;
+ 	width:65px;
+ } 
+
+ #foto_farm img{
+ margin:0px;
+ padding:0;
+ /*float: left;*/
+ } 
+
+ .rollover{ 
+ width:152px;
+ height:128px;
+ }  
+
+ .rollover img 
+ { 
+ 	border:none;
+ 	/*float: left;*/
+ } 
+ .rollover a { display:block; } 
+ .rollover a:hover img { 
+ display:none;  }  
+
+ .rollover a:hover{ 
+ width:65px; 
+ height:36px;
+ background:url(img/farm_colored.png) center center no-repeat;
+ } 
+
+ #text_farm
+ {
+ 	margin-left: 100px;
+ 	z-index: 8;
+ 	margin-top: -25px;
+ }
+
+#breaking
+{
+	position: relative;
+	margin-left: 50px;
+	margin-top:60px;
+	float:left;
+
+}
+
+#stars
+{
+	margin-top: 20px;
+	margin-left: 00px;
+}
+
+
+#news{
+	padding: 60px 100px 20px 100px;
+}
+
+#games{
+	padding: 65px 0px 0px 0px;
+}
+
+#tregg{
+	padding: 65px 0px 0px 0px;
+}
+
+#team{
+	padding: 65px 0px 0px 0px;
+}
+
+#partnerz{
+	padding: 65px 0px 0px 0px;
+}
+
+#contacts{
+	padding: 65px 0px 0px 0px;
+}
+
+#about_us
+{
+	position: relative;
+	width: 1024px;
+	top: 20px;
+	padding: 60px 100px 20px 100px;
+}
+
+#about_us p
+{
+	font-family: 'Quicksand';
+	font-size: 16px;
+	text-align:justify;
+
+}
+
+#about_img
+{
+	z-index: 8;
+	position: absolute;
+	left: 52px;
+	top:20px;
+}
+
+
+#partner_img
+{
+	position: relative;
+	top: 150px;
+	width: 341px;
+	height: 170px;
+	float: left;
+	}
+
+#partner_img div
+{
+	display: inline;
+}
+
+#partner_img img
+
+{
+	display: block;
+	margin: 0 auto;
+
+
+}
+
+#partner_wrapper
+{
+	height:300px;
+}
+
+#partnerz
+{
+	/*border: 1px solid;*/
+	width: 1024px;
+	margin-left: 4px;
+	height: 550px;
+	position: relative;
+	margin-top: 40px;
+}
+
+#contacts
+{
+	/*border: 1px solid;*/
+	width: 1024px;
+	margin-left: 4px;
+	height: 550px;
+	position: relative;
+	margin-top: 150px;
+}
+
+#qubo
+{
+	position: relative;
+	width: 1024px;
+	margin-left: 4px;
+}
+
+#qubo img
+{
+	position: absolute;
+	top:50px;
+	left: 15px;
+}
+
+#where
+{
+	display: block;
+	position: absolute;
+	font-family: Light at the end;
+	color: #bd3329;
+	top:128px;
+	left:20px;
+	font-size: 18px;
+
+}
+
+#where_fungo
+{
+	display: block;
+	position: absolute;
+	font-family: Light at the end;
+	top:320px;
+	left:20px;
+	font-size: 22px;
+
+}
+
+#where_contacts
+{
+	display: block;
+	position: absolute;
+	font-family: Light at the end;
+	top:355px;
+	left:20px;
+	font-size: 16px;
+
+}
+
+#video_pc
+{	
+	position: absolute;
+	top: 720px;
+	left: 70px;
+	z-index: 8;
+}
+
+
+
+
+
