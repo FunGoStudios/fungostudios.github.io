@@ -9,10 +9,10 @@
 
 body {
     background-image:url("img/bkg.jpg");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #wrapper {
@@ -123,32 +123,33 @@ body {
     border-bottom-left-radius: 0px;
     opacity: 1;
     width: 11.64%;
-    left: 44.502612%;
+    left: 44.502425%;
     right: auto;
-    bottom: 49.639423%;
+    bottom: 40.754438%;
 }
 
 #text {
     float: left;
-    font-size: 32px;
-    width: 48.765151%;
+    font-size: 200%;
+    width: 48.764138%;
     height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
     clear: none;
-    min-height: 46px;
+    min-height: 6.971512%;
     color: rgb(255, 254, 210);
     position: absolute;
-    top: 18px;
+    top: 2.727983%;
     left: 25.616412%;
     font-family: ocr-a-std;
+    min-width: 0%;
 }
 
 #text1 {
     float: left;
     font-size: 90%;
-    width: 48.768189%;
+    width: 65.846472%;
     height: auto;
     text-align: center;
     font-weight: normal;
@@ -157,7 +158,7 @@ body {
     min-height: 144px;
     position: absolute;
     top: 18.295484%;
-    left: 25.615399%;
+    left: 17.07727%;
     font-family: ocr-a-std;
 }
 
@@ -183,20 +184,21 @@ body {
     clear: none;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 42.00431%;
-    left: 21.482022%;
+    top: 42.001942%;
+    left: 21.481009%;
+    overflow: visible;
 }
 
 #text2 {
     float: left;
-    font-size: 90%;
-    width: 14.61466%;
+    font-size: 80%;
+    width: 14.612635%;
     height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
     clear: none;
-    min-height: 82px;
+    min-height: 12.427479%;
     position: absolute;
     top: 77.096308%;
     left: 16.946647%;
@@ -205,14 +207,14 @@ body {
 
 #text3 {
     float: left;
-    font-size: 90%;
-    width: 14.61466%;
+    font-size: 80%;
+    width: 14.748322%;
     height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
     clear: none;
-    min-height: 82px;
+    min-height: 12.427479%;
     color: rgb(255, 254, 210);
     position: absolute;
     top: 77.096308%;
@@ -222,14 +224,14 @@ body {
 
 #text4 {
     float: left;
-    font-size: 90%;
-    width: 14.61466%;
+    font-size: 80%;
+    width: 14.612635%;
     height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
     clear: none;
-    min-height: 82px;
+    min-height: 12.427479%;
     position: absolute;
     top: 77.096308%;
     left: 51.099163%;
@@ -238,14 +240,14 @@ body {
 
 #text5 {
     float: left;
-    font-size: 90%;
-    width: 14.61466%;
+    font-size: 80%;
+    width: 14.612635%;
     height: auto;
     text-align: center;
     font-weight: normal;
     line-height: 1em;
     clear: none;
-    min-height: 82px;
+    min-height: 12.427479%;
     position: absolute;
     top: 77.096308%;
     left: 68.17542%;
@@ -260,8 +262,10 @@ body {
     clear: none;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 41.78645%;
-    left: 36.493616%;
+    top: 41.784082%;
+    left: 36.492603%;
+    overflow: visible;
+    bottom: auto;
 }
 
 #image2 {
@@ -272,8 +276,9 @@ body {
     clear: none;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 47.57631%;
-    left: 51.230799%;
+    top: 47.573942%;
+    left: 51.228774%;
+    overflow: visible;
 }
 
 #image3 {
@@ -284,8 +289,10 @@ body {
     clear: none;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 41.78645%;
-    left: 70.5712%;
+    top: 41.784082%;
+    left: 70.570187%;
+    overflow: visible;
+    max-height: none;
 }
 
 #textspan3 {
@@ -311,7 +318,7 @@ body {
 
 #textspan2 {
     float: none;
-    font-size: 120%;
+    font-size: 110%;
     line-height: 1em;
     color: rgb(255, 254, 210);
 }
@@ -325,10 +332,7 @@ body {
     top: auto;
     left: 0%;
     bottom: 0px;
-    margin-top: 741px;
-    margin-left: 1.265405%;
-    margin-bottom: 0%;
-    margin-right: 0%;
+    margin: 741px 0% 0% 1.265405%;
     right: auto;
 }
 
@@ -389,8 +393,8 @@ body {
     color: rgb(0, 0, 0);
     position: absolute;
     top: auto;
-    left: 44.797837%;
-    bottom: 46.72%;
+    left: 44.797368%;
+    bottom: 40.800666%;
     right: auto;
     box-shadow: rgb(0, 0, 0) 0px 0px;
     z-index: 11;
@@ -419,7 +423,7 @@ body {
 
     #text {
         width: 48.768057%;
-        font-size: 28px;
+        font-size: 175%;
         top: 7px;
         left: 25.615971%;
         height: auto;
@@ -437,7 +441,7 @@ body {
 
     #text2 {
         width: 14.616034%;
-        font-size: 85%;
+        font-size: 80%;
         top: 78.005636%;
         left: 16.945469%;
         line-height: 110%;
@@ -445,15 +449,15 @@ body {
 
     #text3 {
         width: 14.616034%;
-        font-size: 85%;
+        font-size: 80%;
         top: 78.005636%;
-        left: 34.022263%;
+        left: 34.162967%;
         line-height: 110%;
     }
 
     #text4 {
         width: 14.616034%;
-        font-size: 85%;
+        font-size: 80%;
         top: 78.005636%;
         left: 51.099056%;
         line-height: 110%;
@@ -461,14 +465,14 @@ body {
 
     #text5 {
         width: 14.616034%;
-        font-size: 85%;
+        font-size: 80%;
         top: 78.005636%;
         left: 68.174286%;
         line-height: 110%;
     }
 
     #image2 {
-        top: 53.688224%;
+        top: 53.082005%;
         left: 51.099056%;
         height: auto;
         width: auto;
@@ -476,11 +480,12 @@ body {
     }
 
     #image1 {
-        top: 43.955576%;
-        left: 34.022263%;
+        top: 44.44576%;
+        left: 34.763304%;
         height: auto;
         width: auto;
-        max-width: 15.36802%;
+        max-width: 14%;
+        bottom: auto;
     }
 
     #image {
@@ -507,6 +512,10 @@ body {
 
     #box1 {
         visibility: hidden;
+    }
+
+    #textspan2 {
+        font-size: 110%;
     }
 }
 
@@ -548,14 +557,15 @@ body {
         min-height: 89px;
         top: 19.204812%;
         left: 16.944948%;
-        width: 65.976695%;
+        width: 65.974611%;
     }
 
     #text {
-        width: 48.767015%;
+        width: 65.645259%;
         font-size: 26px;
         top: 37px;
-        left: 25.614408%;
+        left: 17.278469%;
+        height: auto;
     }
 
     #text2 {
@@ -654,16 +664,17 @@ body {
     #text {
         height: auto;
         top: 5.362798%;
-        left: 18.204622%;
-        width: 65.980834%;
+        left: 9.766065%;
+        width: 82.925592%;
         font-size: 18px;
     }
 
     #text1 {
-        width: 65.975197%;
+        width: 82.925592%;
         font-size: 60%;
         top: 15.715816%;
-        left: 18.249718%;
+        left: 9.766065%;
+        height: auto;
     }
 
     #text2 {
@@ -773,11 +784,8 @@ body {
         top: 0px;
         left: 0px;
         width: 97.598647%;
-        margin-top: -1.8%;
-        margin-left: 2.409808%;
+        margin: -1.8% 0% 0% 2.409808%;
         clear: both;
-        margin-bottom: 0%;
-        margin-right: 0%;
     }
 
     #rocket {
