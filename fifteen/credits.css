@@ -1,11 +1,13 @@
 /* This code is only meant for previewing your Reflow design. */
 @font-face{ 
     font-family: 'Candela';
-    src: url('CandelaBook-webfont.eot');
-    src: url('CandelaBook-webfont.eot?iefix') format('eot'),
-         url('CandelaBook-webfont.woff') format('woff'),
-         url('CandelaBook-webfont.ttf') format('truetype'),
-         url('CandelaBook-webfont.svg#Candela') format('svg');
+    src: url('fonts/CandelaBook-webfont.eot');
+    src: url('fonts/CandelaBook-webfont.eot?iefix') format('embedded-opentype'),
+         url('fonts/CandelaBook-webfont.woff') format('woff'),
+         url('fonts/CandelaBook-webfont.ttf') format('truetype'),
+         url('fonts/CandelaBook-webfont.svg#Candela') format('svg');
+    font-weight: normal;
+    font-style: normal;
      }
 .primaryContainer {
     height: auto;
