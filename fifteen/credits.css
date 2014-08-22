@@ -1,0 +1,574 @@
+/* This code is only meant for previewing your Reflow design. */
+@font-face{ 
+    font-family: 'Candela';
+    src: url('CandelaBook-webfont.eot');
+    src: url('CandelaBook-webfont.eot?iefix') format('eot'),
+         url('CandelaBook-webfont.woff') format('woff'),
+         url('CandelaBook-webfont.ttf') format('truetype'),
+         url('CandelaBook-webfont.svg#Candela') format('svg');
+     }
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(255, 226, 177);
+    position: relative;
+}
+
+#Wrapper {
+    float: none;
+    height: 100%;
+    margin-left: auto;
+    margin-top: 2px;
+    clear: none;
+    width: 82.994026%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+
+#footer {
+    float: none;
+    height: 100%;
+    clear: none;
+    width: 64.675102%;
+    
+    top: 80px;
+    left: 0px;
+    margin: 120px auto 20px;
+    max-width: 730px;
+    min-height: 0px;
+}
+
+#logo {
+    float: none;
+    height: 100%;
+    clear: none;
+    width: 99.929284%;
+    position: static;
+    top: 0px;
+    left: 0px;
+    min-height: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#menu {
+    float: none;
+    height: 100%;
+    clear: none;
+    width: 100.015715%;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#logo1 {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#facebook {
+    float: right;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    display: block;
+}
+
+#screenshot {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    opacity: 1;
+    display: block;
+}
+
+#home {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+
+#box {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 210px;
+    margin-right: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#image {
+    float: none;
+    width: auto;
+    max-width: 40%;
+    height: auto;
+    margin: 20px auto 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#text {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+    max-width: 730px;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+}
+
+#text1 {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 40px;
+    clear: none;
+    min-height: 0px;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+    max-width: 730px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+
+#image1 {
+    float: none;
+    width: auto;
+    max-width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+    display: block;
+}
+
+#text2 {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 40px;
+    clear: none;
+    min-height: 0px;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+    max-width: 730px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+
+#image2 {
+    float: none;
+    width: auto;
+    max-width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+    display: block;
+}
+
+#text3 {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 40px auto 0px;
+    clear: none;
+    min-height: 0px;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 730px;
+}
+
+#facebook:active {
+    opacity: 0.5;
+}
+
+#home:active {
+    opacity: 0.5;
+}
+
+#image4 {
+    float: none;
+    width: auto;
+    max-width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+
+#image3 {
+    float: none;
+    width: auto;
+    max-width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+
+#image5 {
+    float: none;
+    width: auto;
+    max-width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+
+#text4 {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin: 40px auto 0px;
+    clear: none;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 730px;
+    display: block;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+}
+
+#textspan {
+    float: none;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+#text5 {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 20px auto 0px;
+    clear: none;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 730px;
+    display: block;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+}
+
+#text6 {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px auto 0px;
+    clear: none;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 730px;
+    display: block;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+    text-decoration: underline;
+}
+
+#link_2 {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px auto 0px;
+    clear: none;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 730px;
+    display: block;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+    text-decoration: underline;
+}
+
+#link_3 {
+    float: none;
+    font-size: 140%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px auto 0px;
+    clear: none;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 730px;
+    display: block;
+    font-family: Candela;
+    color: rgb(87, 56, 92);
+    text-decoration: underline;
+}
+
+#CC_license {
+    float: none;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 10px auto 80px;
+    clear: none;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-width: 730px;
+    display: block;
+    color: rgb(87, 56, 92);    
+}
+
+#screenshot:active {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 1024px) {
+    #image {
+        max-width: 50%;
+    }
+
+    #image1 {
+        max-width: 50%;
+    }
+
+    #image2 {
+        max-width: 50%;
+    }
+
+    #footer {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #text {
+        font-size: 110%;
+    }
+
+    #text1 {
+        font-size: 110%;
+    }
+
+    #text2 {
+        font-size: 110%;
+    }
+
+    #text3 {
+        font-size: 110%;
+    }
+
+    #image {
+        max-width: 50%;
+    }
+
+    #image1 {
+        max-width: 50%;
+    }
+
+    #image2 {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    #text {
+        font-size: 90%;
+    }
+
+    #text1 {
+        font-size: 90%;
+    }
+
+    #text2 {
+        font-size: 90%;
+    }
+
+    #text3 {
+        font-size: 90%;
+    }
+
+    #image {
+        max-width: 50%;
+    }
+
+    #image1 {
+        max-width: 50%;
+    }
+
+    #image2 {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #Wrapper {
+        margin-top: 2px;
+        margin-left: auto;
+        clear: none;
+        width: 95.874023%;
+        margin-right: auto;
+    }
+
+    #logo1 {
+        width: 62%;
+    }
+
+    #menu {
+        width: 100.02%;
+    }
+
+    #box {
+        width: 210px;
+    }
+
+    #footer {
+        width: 90%;
+    }
+
+    #image {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+    }
+
+    #image1 {
+        max-width: 50%;
+    }
+
+    #image2 {
+        max-width: 50%;
+    }
+}
+
