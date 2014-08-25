@@ -210,7 +210,7 @@ body
 	position: relative;
 	margin-top: 100px;
 	margin-left: 4px;
-	height: 550px;
+	height: 450px;
 	width: 1024px;
 	border: 0px solid;
 
@@ -245,6 +245,27 @@ body
 	border-radius:50px;
 }
 
+#icon7
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 40px;
+	width: 256px;
+	height: 256px;
+	box-shadow: 2px 2px 8px #888888;
+	border-radius:62px;
+}
+
+#iconsq
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 40px;
+	width: 256px;
+	height: 256px;
+	box-shadow: 2px 2px 8px #888888;
+}
+
 #games_text
 {
 	
@@ -261,7 +282,7 @@ body
 
 #games_text ul {
 	list-style: none;
-	margin-top: 100px;
+	margin-top: 50px;
 
 
 }
